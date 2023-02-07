@@ -1,8 +1,7 @@
 {
   "name": "react-video-cropper",
   "version": "1.0.0",
-  "description": "react video cropper which crop images from videos ",
-  "author": "srjchauhan",
+  "description": "React video cropper for croping images from videos ",
   "license": "MIT",
   "repository": "srjchauhan/react-video-cropper",
   "main": "dist/index.js",
@@ -11,6 +10,18 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "video-cropper",
+    "videoCropper",
+    "react-component",
+    "react-video-cropper"
+  ],
+  "author": {
+    "name": "suraj chauhan",
+    "email": "srj.surajchauhan@gmail.com"
+  },
+  "homepage": "https://github.com/srjchauhan/react-video-cropper.git",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -27,7 +38,6 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
-    "microbundle-crl": "^0.13.10",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -41,6 +51,7 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
@@ -49,5 +60,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "react-icons": "^4.7.1",
+    "react-image-crop": "^10.0.9",
+    "styled-components": "^5.3.6"
+  }
 }

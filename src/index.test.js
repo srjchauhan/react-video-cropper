@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import VideoCropper from '.'
 
-describe('ExampleComponent', () => {
+describe('VideoCropper', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(VideoCropper).toBeTruthy()
   })
 })
